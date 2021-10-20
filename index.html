@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/ecommerce.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel='stylesheet'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>9
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Menu Icon -->
+  <nav id="navbar" class="">
+    <div class="nav-wrapper">
+      <!-- Navbar Logo -->
+      <div class="logo">
+        <!-- Logo Placeholder for Inlustration -->
+        <a href="#home"><img src="./image/logo.jpg" alt=""></a>
+      </div>
+
+      <!-- Navbar Links -->
+      <ul id="menu">
+        <li><a href="#home">desktop</a></li>
+        <!--
+   -->
+        <li><a href="#services">Television</a></li>
+        <!--
+   -->
+        <li><a href="#about">Smart Phone</a></li>
+        <!--
+   -->
+        <li><a href="#contact">Home gadgets</a></li>
+        <li><a href="#contact">Watches</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#imageCarousel" data-slide-to="1"></li>
+      <li data-target="#imageCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active"></div>
+      <div id="target" class="carousel-item"></div>
+      <div class="carousel-item"></div>
+    </div>
+    <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="sec-banner">
+    <div class="banner-card">
+      <div class="banner-content">
+          <div class="banner-image-card-all">
+                 <div class="banner-image-card-inside">
+                         <div class="banner-image-card-all-2">
+                           <span class="accesories-name-electronic-appliances">Led TV</span>
+                           <span class="season-2021">Spring 2021</span>
+                           <div class="show-tag  show-tv-tag">
+                               <a href="">shop now</a>                         
+                           </div>
+                          
+                         </div> 
+                         <div class="banner-image-card-all-1 tv-image-card">
+                              <img src="./image/banner1.png" alt="IMG-BANNER">
+                        </div> 
+                 </div>       
+          </div>
+          <div class="banner-image-card-all"> 
+                 <div class="banner-image-card-inside">
+                      <div class="banner-image-card-all-2">
+                        <span class="accesories-name-electronic-appliances">mobile</span>
+                        <span class="season-2021" >Spring 2021</span>
+                          <div class="show-tag show-mobile-tag">
+                                <a href="">shop now</a>                         
+                           </div>
+                      </div>
+                      <div class="banner-image-card-all-1 mobile-image-card">
+                           <img src="./image/banner2.png" alt="IMG-BANNER">
+                     </div>
+                 </div>  
+           </div>
+          <div class="banner-image-card-all">
+                <div class="banner-image-card-inside">
+                     <div class="banner-image-card-all-2"> 
+                       <span class="accesories-name-electronic-appliances">watches</span>
+                      <span class="season-2021">Spring 2021</span>
+                      <div class="show-tag show-watches-tag">
+                            <a href="">shop now</a>                         
+                      </div>
+                     </div>
+                     <div class="banner-image-card-all-1 watch-image-card">
+                            <img src="./image/banner3.png" alt="IMG-BANNER">
+                     </div>
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script>$('.carousel').carousel();</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+</body>
+<script>
+  let menuIcon = document.querySelector('.menuIcon');
+  let nav = document.querySelector('.overlay-menu');
+
+  menuIcon.addEventListener('click', () => {
+    if (nav.style.transform != 'translateX(0%)') {
+      nav.style.transform = 'translateX(0%)';
+      nav.style.transition = 'transform 0.2s ease-out';
+    } else {
+      nav.style.transform = 'translateX(-100%)';
+      nav.style.transition = 'transform 0.2s ease-out';
+    }
+  });
+
+
+  // Toggle Menu Icon ========================================
+  let toggleIcon = document.querySelector('.menuIcon');
+
+  toggleIcon.addEventListener('click', () => {
+    if (toggleIcon.className != 'menuIcon toggle') {
+      toggleIcon.className += ' toggle';
+    } else {
+      toggleIcon.className = 'menuIcon';
+    }
+  });
+</script>
+
+</html>    
