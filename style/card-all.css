@@ -52,7 +52,7 @@ a:hover {
 }
 
 .section-products #product-1 .part-1-1{
-  background-image: url("/image/oven.jpg")  ;
+  background-image: url("../image/oven.jpg")  ;
   background-size: 100% 100%;
   
 		transition: all 0.3s;
