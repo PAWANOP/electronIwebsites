@@ -8,7 +8,7 @@
 }
 
 body {
-  background: rgb(250, 250, 250) ;
+  /* background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);; */
   font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
@@ -360,7 +360,7 @@ font-size: 15px;
 color: #666;
 margin: 0;
 padding: 60px;
-background-color: #fff;
+background-color: #EAF2F8;
 }
 
 .banner-card {
@@ -473,3 +473,4 @@ text-align: center;
 .banner-image-card-all:hover .show-tag a{
   color:white;
 }
+
