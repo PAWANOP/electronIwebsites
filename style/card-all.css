@@ -23,8 +23,8 @@ a:hover {
 }
 
 .section-products .single-product {
-    margin-bottom: 26px;
-    border: 1px solid #A184E9;
+   
+    
     padding: 5px;
 }
 
@@ -92,27 +92,25 @@ a:hover {
   background-image: url("../image/best-seller-4.jpg");
     background-size: 100% 100%;	transition: all 0.3s;
 }
-.section-products #product-9 .part-1-9{
-  background-image: url("../image/feature-1.jpg")  ;
-  background-size: 100% 100%;
-		transition: all 0.3s;
+.feature-local-store-all-cards{
+  display: flex;
+  flex-wrap: wrap;
+ 
 }
-
-.section-products #product-10 .part-1-10{
-  background-image: url("../image/feature-2.jpg") ;
-    background-size: 100% 100%;	transition: all 0.3s;
+.local-store-card {
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+    margin:20px;
+    background-color: white;
+    padding:10px;
 }
-
-.section-products #product-11 .part-1-11{
-  background-image: url("../image/feature-3.jpg");
-    background-size: 100% 100%;	transition: all 0.3s;
+.local-store-card:hover{
+  transform : scale(0.8)
 }
-
-.section-products #product-12 .part-1-12 {
-  background-image: url("../image/feature-4.jpg");
-    background-size: 100% 100%;	transition: all 0.3s;
+.local-store-card img{
+    width: 260px;
+    height: 180px;
 }
-
 .Home-Gadgets {
   background-color: #AED6F1;
 }
@@ -179,7 +177,10 @@ a:hover {
 .section-products .single-product .part-2 .product-title {
     font-size: 1rem;
 }
-
+.section-products .single-product .part-2  {
+  text-align: center;
+  font-size: 1rem;
+}
 .section-products .single-product .part-2 h4 {
     display: inline-block;
     font-size: 1rem;
