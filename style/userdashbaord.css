@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue",Helvetica,Arial, sans-serif;
+  color: white;
+}
+
+.user-profile{
+  cursor:pointer;
+  text-transform: capitalize;
+}
+
+.user-profile span i{
+ margin-left: 6px;
+}
+
+.cart-list span i{
+ margin-right: 6px;
+}
+
+.user-profile span i:hover{
+transform: rotate(180deg);
+}
