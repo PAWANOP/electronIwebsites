@@ -6,19 +6,3 @@
   color: white;
 }
 
-.user-profile{
-  cursor:pointer;
-  text-transform: capitalize;
-}
-
-.user-profile span i{
- margin-left: 6px;
-}
-
-.cart-list span i{
- margin-right: 6px;
-}
-
-.user-profile span i:hover{
-transform: rotate(180deg);
-}

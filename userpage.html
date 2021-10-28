@@ -6,8 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" sizes="16x16" href="../image/logo.jpg">
-	<link rel="stylesheet" href="./style/navbar.css">
+
 	<link rel="stylesheet" href="./style/ecommerce.css">
+	<link rel="stylesheet" href="./style/navbar.css">
 	<link rel="stylesheet" href="./style/footer.css">
 	<link rel="stylesheet" href="./style/card-all.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -19,7 +20,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
 		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">99
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -29,33 +30,47 @@
 
 <body>
 	<!-- Menu Icon -->
-	<nav id="navbar" class="">
-		<div class="nav-wrapper">
-			<!-- Navbar Logo -->
-			<div class="logo">
-				<!-- Logo Placeholder for Inlustration -->
-				<a href="#home"><img src="./image/logo.jpg" alt=""></a>
-			</div>
+	<nav id="navbar" class="" style="background-color: #338BF8;">
+    <div class="nav-wrapper">
+      <!-- Navbar Logo -->
+      <div class="logo">
+        <!-- Logo Placeholder for Inlustration -->
+        <a href="#home"><img src="./image/logo.jpg" alt=""></a>
+      </div>
 
-			<!-- Navbar Links -->
-			<ul id="menu">
-				<li><a href="#home">desktop</a></li>
-				<!--
+      <!-- Navbar Links -->
+      <ul id="menu">
+        <li><a href="#home">desktop</a></li>
+        <!--
    -->
-				<li><a href="#services">Television</a></li>
-				<!--
+        <li><a href="#services">Television</a></li>
+        <!--
    -->
-				<li><a href="#about">Smart Phone</a></li>
-				<!--
+        <li><a href="#about">Smart Phone</a></li>
+        <!--
    -->
-				<li><a href="#contact">Home gadgets</a></li>
-				<li><a href="#contact">Watches</a></li>
-			</ul>	
-			<ul id="menu">
-				<li><a href="userdashbaord.html">sign</a></li>
-			</ul>
-		</div>
-	</nav>
+        <li><a href="#contact">Home gadgets</a></li>
+        <li><a href="#contact">Watches</a></li>
+      </ul>
+      <div class="user-profile">
+         <span>my account<i class="fas fa-angle-down"></i></span>
+      </div>
+      <div class="cart-list">
+         <span><i class="fas fa-shopping-cart"></i>cart</span>
+      </div>
+     
+    </div> 
+   	<div class="dashboard-list">
+
+        <div class="dashboard-list-all">
+            <span><i class="fas fa-user-circle"></i>my profile</span>
+            <span><i class="material-icons">shopping_bag</i>Orders</span>
+            <span><i class="fas far fa-heart"></i>whislist</span>
+            <span><i class="fas fa-power-off"></i>logout</span>
+        </div>
+    </div>
+  </nav> 
+
 	<div id="imageCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
