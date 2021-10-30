@@ -13,11 +13,10 @@
                           Navbar
   ======================================================*/
 #navbar {
-  background: white;
-  color: rgb(13, 26, 38);
+  background: #354052;
+  color: rgb(253, 253, 253);
   position: fixed;
-  top: 0;
-   height: 60px;
+   height: 115px;
   width: 100vw; 
   z-index: 10;
 }
@@ -41,12 +40,7 @@
     } 
 
 
-.logo {
-  font-size: 1.5em;
-  height: 60px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
+
 
 #navbar ul {
   display: inline-block;
@@ -74,7 +68,7 @@
 }
 
 #navbar li a {
-  color: rgb(13, 26, 38);
+  color: rgb(255, 255, 255);
   display: block;
   font-size: 0.7em;
   /* height: 50px; */
@@ -106,10 +100,17 @@
 
 .user-profile span i{
  margin-left: 6px;
+ color: rgb(255, 255, 255);
+}
+.user-profile span {color: rgb(255, 255, 255);
 }
 
 .cart-list span i{
+  color: rgb(255, 255, 255);
  margin-right: 6px;
+}
+.cart-list span {cursor: pointer;
+  color: rgb(255, 255, 255);
 }
 
 .user-profile:hover span i{
@@ -118,24 +119,52 @@ transform: rotate(180deg);
 
 .dropdown-menu{
   margin-top: 16px!important;
-  /* display: flex;9 */
-}
-.dropdown-menu {
   display: flex;
-  flex-direction: column;
-  /* padding: 10px; */
-}.dropdown-menu ul li{
-  display: flex;
-  flex-direction: row;
-  /* padding: 10px; */
+  flex-direction: column; background-color:#354052!important;
 }
 
 .dropdown-menu a{
   display: block;
-  /* padding: 10px;9 */
-  color: black;
+   padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color:#354052;
+  text-transform: capitalize;
 }
 
+.dropdown-menu a:hover{
+  text-decoration: none;
+  background-color: #00b300;
+  color: rgb(255, 255, 255);
+}
+
+.list-profile{
+  color: black;
+  margin-left: 6px;
+  font-weight: lighter;
+}
 .user-profile,.cart-list {
-  margin-top: 19px;
+  margin-top: 19px; 
+}
+.header-bar{
+  padding: 10px;
+  background-color:#45484d;
+  display: flex;
+  justify-content:center;
+}
+
+.header-bar .sub-domain{
+  padding: 8px;
+  background-color : aqua;transition: 1s;
+}
+.header-bar .sub-domain a{
+  margin: 10px;
+  text-decoration: none;
+  color:  #45484d;
+  font-weight: bold;
+  transition: 1s;
+  padding: 4px;
+}
+.header-bar .sub-domain a:hover{
+  text-decoration: none;
+  border: 1px solid #45484d;
 }

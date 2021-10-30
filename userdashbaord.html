@@ -6,14 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akakanksha | Electronic;</title>	
   <link rel="icon" type="image/png" sizes="16x16" href="../image/logo.jpg">
-  <link rel="stylesheet" href="./style/navbar.css"> 
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.90/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./style/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/userdashbaord.css">9
+  <link rel="stylesheet" href="./style/userdashbaord.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  =
 </head>
-<body style="background-color:blue">
-  <nav id="navbar" class="" style="background-color: #338BF8;">
+<body>
+  <nav id="navbar">
+    <section class="header-bar">
+      <div class="sub-domain">
+        <a href="">Electronic brands </a>
+        <a href="">Local stores </a>
+      </div>
+    </section>
     <div class="nav-wrapper">
       <!-- Navbar Logo -->
       <div class="logo">
@@ -40,25 +52,331 @@
           my account<i class="fas fa-angle-down"></i>
         </span>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="fas fa-user-circle" href="#">my profile </a>
-          <a class="fas fa-box-open" href="#"> my  order</a>
-          <a class="fas fa-heart" href="#"> whishlist</a>
-          <a class="fas fa-power-off" href="#"> logout</a>
+          <a class="fas fa-user-circle" href="userdashbaord.html"> <span class="list-profile"> my profile </span></a>
+          <a class="fas fa-box-open" href="userdashbaord.html"><span class="list-profile"> my  order</span></a>
+          <a class="fas fa-heart" href="userdashbaord.html"> <span class="list-profile">whishlist</span> </a>
+          <a class="fas fa-power-off" href="userdashbaord.html"> <span class="list-profile">logout</span> </a>
         </div>
       </div>
       <div class="cart-list">
          <span><i class="fas fa-shopping-cart"></i>cart</span>
       </div>
-     
     </div> 
   </nav>
+  <div class="main">
+    <div class="left">
+      <ul>
+        <h5 class="menu-heading"> my account</h5>
+        <li class="active"><a data-toggle="tab" href="#user-profile"><i class="fas fa-user-circle"></i> my Profile</a></li>
+        <li><a data-toggle="tab" href="#myorder"><i class="fas fa-box-open"></i> my order</a></li>
+        <li><a data-toggle="tab" href="#whishlist"><i class="fas fa-heart"></i> whishlist</a></li>
+        <li><a data-toggle="tab" href="#viewaddress"><i class="fas fa-map-marker-alt"></i> view address</a></li>
+        <li><a data-toggle="tab" href="#"><i class="fas  fa-power-off"></i> logout</a></li>
+      </ul>
+    </div>
+    <div class="right"> 
+      <div class="tab-content">
+        <!-- User Profile -->
+        <div id="user-profile" class="tab-pane fade in active">
+          <div class="header">
+              <h4>YOUR PROFILE INFORMATION
+              </h4> 
+            </div>
+        
+           
+            <div class="form-pofile-information">
+              <form class="forms">
+                
+                  <div class="left-form">
+                      <h4 class="heading-section-name">Account</h4>
+                    <div class="left-form-top-flex">
+                        <div class="left-form-top-flex-1 photo-upload">
+                        <div class="avatar-upload">
+                          <div class="avatar-edit">
+                              <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                              <label for="imageUpload"></label>
+                          </div>
+                          <div class="avatar-preview">
+                              <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                              </div>
+                          </div>
+                      </div>
+                        </div> 
+                        <div class="left-form-top-flex-1">
+                            <div class="input-group-profile input-group-icon">
+                        <input type="text" class="input-profile-field" placeholder="Full Name" />
+                          <div class="input-icon"><i class="fa fa-user"></i></div>
+                            </div>
+                            <div class="input-group-profile input-group-icon">
+                        <input type="email" class="input-profile-field" placeholder="Email Adress" />
+                          <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                            </div>
+                       </div>
+                       <div class="left-form-top-flex-1">
+                             <div class="input-group-profile input-group-icon">
+                        <input type="password" class="input-profile-field" placeholder="Password" />
+                          <div class="input-icon"><i class="fa fa-key"></i></div>
+                             </div>
+                             <div class="input-group-profile input-group-icon">
+                            <input type="text" class="input-profile-field" placeholder="mobile" />
+                               <div class="input-icon">
+                                 <i class="fas fa-mobile"></i>
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+                      
+                  </div>
+                 <div class="right-form">
+                      <div class="right-form-1 right-form-side">
+                          <h4 class="heading-section-name">Date of Birth</h4>
+                          <div class="input-group">
+                              <div class="col-third"><input type="date" class="date-of-birth" ></div>
+                          </div>
+                      </div> 
+                     <div class="save-button-section right-form-side">
+                        <button class="save-button">save</button>
+                      </div>
+                      <div class="right-form-2 right-form-side">
+                          <h4 class="heading-section-name">Gender</h4>
+                          <div class="input-group-gender">
+                            <input id="gender-male" class="gender" type="radio" name="gender" value="male" />
+                            <label for="gender-male" class="gender-label">Male</label>
+                            <input id="gender-female" class="gender" type="radio" name="gender" value="female" />
+                            <label for="gender-female" class="gender-label">Female</label></div>
+                     </div>                     
+                 </div>
+                 
+              </form>
+          </div>
+           
+          </div>
+        <!-- myorder -->
+        <div id="myorder" class="tab-pane fade">
+          <div class="header">
+            <h4>order list</h4>
+          </div>
+          <div class="form-pofile-information">
+            <form class="forms">
+              
+                <div class="left-form">
+                    <h4 class="heading-section-name">Account</h4>
+                  <div class="left-form-top-flex">
+                      <div class="left-form-top-flex-1 photo-upload">
+                      <div class="avatar-upload">
+                        <div class="avatar-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="avatar-preview">
+                            <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                            </div>
+                        </div>
+                    </div>
+                      </div> 
+                      <div class="left-form-top-flex-1">
+                          <div class="input-group-profile input-group-icon">
+                      <input type="text" class="input-profile-field" placeholder="Full Name" />
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                          </div>
+                          <div class="input-group-profile input-group-icon">
+                      <input type="email" class="input-profile-field" placeholder="Email Adress" />
+                        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                          </div>
+                     </div>
+                     <div class="left-form-top-flex-1">
+                           <div class="input-group-profile input-group-icon">
+                      <input type="password" class="input-profile-field" placeholder="Password" />
+                        <div class="input-icon"><i class="fa fa-key"></i></div>
+                           </div>
+                           <div class="input-group-profile input-group-icon">
+                          <input type="text" class="input-profile-field" placeholder="mobile" />
+                             <div class="input-icon">
+                               <i class="fas fa-mobile"></i>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                    
+                </div>
+               <div class="right-form">
+                    <div class="right-form-1 right-form-side">
+                        <h4 class="heading-section-name">Date of Birth</h4>
+                        <div class="input-group">
+                            <div class="col-third"><input type="date" class="date-of-birth" ></div>
+                        </div>
+                    </div> 
+                   <div class="save-button-section right-form-side">
+                      <button class="save-button">save</button>
+                    </div>
+                    <div class="right-form-2 right-form-side">
+                        <h4 class="heading-section-name">Gender</h4>
+                        <div class="input-group-gender">
+                          <input id="gender-male" class="gender" type="radio" name="gender" value="male" />
+                          <label for="gender-male" class="gender-label">Male</label>
+                          <input id="gender-female" class="gender" type="radio" name="gender" value="female" />
+                          <label for="gender-female" class="gender-label">Female</label></div>
+                   </div>                     
+               </div>
+               
+            </form>
+        </div>
+        </div>
+        <!-- whishlist -->
+        <div id="whishlist" class="tab-pane fade">
+          <div class="header">
+            <h4>whish list</h4>
+          </div>
+          <div class="form-pofile-information">
+            <form class="forms">
+              
+                <div class="left-form">
+                    <h4 class="heading-section-name">Account</h4>
+                  <div class="left-form-top-flex">
+                      <div class="left-form-top-flex-1 photo-upload">
+                      <div class="avatar-upload">
+                        <div class="avatar-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="avatar-preview">
+                            <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                            </div>
+                        </div>
+                    </div>
+                      </div> 
+                      <div class="left-form-top-flex-1">
+                          <div class="input-group-profile input-group-icon">
+                      <input type="text" class="input-profile-field" placeholder="Full Name" />
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                          </div>
+                          <div class="input-group-profile input-group-icon">
+                      <input type="email" class="input-profile-field" placeholder="Email Adress" />
+                        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                          </div>
+                     </div>
+                     <div class="left-form-top-flex-1">
+                           <div class="input-group-profile input-group-icon">
+                      <input type="password" class="input-profile-field" placeholder="Password" />
+                        <div class="input-icon"><i class="fa fa-key"></i></div>
+                           </div>
+                           <div class="input-group-profile input-group-icon">
+                          <input type="text" class="input-profile-field" placeholder="mobile" />
+                             <div class="input-icon">
+                               <i class="fas fa-mobile"></i>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                    
+                </div>
+               <div class="right-form">
+                    <div class="right-form-1 right-form-side">
+                        <h4 class="heading-section-name">Date of Birth</h4>
+                        <div class="input-group">
+                            <div class="col-third"><input type="date" class="date-of-birth" ></div>
+                        </div>
+                    </div> 
+                   <div class="save-button-section right-form-side">
+                      <button class="save-button">save</button>
+                    </div>
+                    <div class="right-form-2 right-form-side">
+                        <h4 class="heading-section-name">Gender</h4>
+                        <div class="input-group-gender">
+                          <input id="gender-male" class="gender" type="radio" name="gender" value="male" />
+                          <label for="gender-male" class="gender-label">Male</label>
+                          <input id="gender-female" class="gender" type="radio" name="gender" value="female" />
+                          <label for="gender-female" class="gender-label">Female</label></div>
+                   </div>                     
+               </div>
+               
+            </form>
+        </div>
+        </div>
+        <!-- viewaddress -->
+        <div id="viewaddress" class="tab-pane fade">
+          <div class="header">
+            <h4>whish list</h4>
+          </div>
+          <div class="form-pofile-information">
+            <form class="forms">
+              
+                <div class="left-form">
+                    <h4 class="heading-section-name">Account</h4>
+                  <div class="left-form-top-flex">
+                      <div class="left-form-top-flex-1 photo-upload">
+                      <div class="avatar-upload">
+                        <div class="avatar-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="avatar-preview">
+                            <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                            </div>
+                        </div>
+                    </div>
+                      </div> 
+                      <div class="left-form-top-flex-1">
+                          <div class="input-group-profile input-group-icon">
+                      <input type="text" class="input-profile-field" placeholder="Full Name" />
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                          </div>
+                          <div class="input-group-profile input-group-icon">
+                      <input type="email" class="input-profile-field" placeholder="Email Adress" />
+                        <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                          </div>
+                     </div>
+                     <div class="left-form-top-flex-1">
+                           <div class="input-group-profile input-group-icon">
+                      <input type="password" class="input-profile-field" placeholder="Password" />
+                        <div class="input-icon"><i class="fa fa-key"></i></div>
+                           </div>
+                           <div class="input-group-profile input-group-icon">
+                          <input type="text" class="input-profile-field" placeholder="mobile" />
+                             <div class="input-icon">
+                               <i class="fas fa-mobile"></i>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                    
+                </div>
+               <div class="right-form">
+                    <div class="right-form-1 right-form-side">
+                        <h4 class="heading-section-name">Date of Birth</h4>
+                        <div class="input-group">
+                            <div class="col-third"><input type="date" class="date-of-birth" ></div>
+                        </div>
+                    </div> 
+                   <div class="save-button-section right-form-side">
+                      <button class="save-button">save</button>
+                    </div>
+                    <div class="right-form-2 right-form-side">
+                        <h4 class="heading-section-name">Gender</h4>
+                        <div class="input-group-gender">
+                          <input id="gender-male" class="gender" type="radio" name="gender" value="male" />
+                          <label for="gender-male" class="gender-label">Male</label>
+                          <input id="gender-female" class="gender" type="radio" name="gender" value="female" />
+                          <label for="gender-female" class="gender-label">Female</label></div>
+                   </div>                     
+               </div>
+               
+            </form>
+        </div>
+        </div>
+    </div>
+  </div> 
+ </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"> -->
-  </script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
