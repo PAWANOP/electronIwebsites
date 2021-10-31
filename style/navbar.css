@@ -105,7 +105,7 @@
 .user-profile span {color: rgb(255, 255, 255);
 }
 
-.cart-list span i{
+.cart-list span a{
   color: rgb(255, 255, 255);
  margin-right: 6px;
 }

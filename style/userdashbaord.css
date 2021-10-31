@@ -286,6 +286,14 @@ background-color: #010101;
   border-radius: 4.2px;
   box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
 }
+
+/* .form-order-information {
+  padding: 1em;
+	margin: 1rem 0 0 1.4rem;
+  background-color: #fff;
+  border-radius: 4.2px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+} */
 .left-form-top-flex{
 	display: flex;
 	flex-wrap: wrap;
@@ -417,3 +425,108 @@ background-color: #010101;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+.tab-wrap-myorder {
+	transition: 0.3s box-shadow ease;
+	border-radius: 6px;
+	max-width: 100%;
+	display: flex;
+flex-wrap: wrap;
+	position: relative;
+	list-style: none;
+	background-color: #fff;
+	margin: 1rem 0 0 1.4rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+.tab_myorder {
+	display: none;
+}
+.tab_myorder:checked:nth-of-type(1) ~ .tab__content_myorder:nth-of-type(1) {
+	opacity: 1;
+
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+		  transform: translateY(0px);
+	text-shadow: 0 0 0;
+}
+.tab_myorder:checked:nth-of-type(2) ~ .tab__content_myorder:nth-of-type(2) {
+	opacity: 1;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+		  transform: translateY(0px);
+	text-shadow: 0 0 0;
+}
+
+.tab_myorder:first-of-type:not(:last-of-type) + label {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.tab_myorder:not(:first-of-type):not(:last-of-type) + label {
+  border-radius: 0;
+}
+.tab_myorder:last-of-type:not(:first-of-type) + label {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.tab_myorder:checked + label {      
+    color: #f0a500;
+	background-color: #fff;
+
+	box-shadow: 0 -1px 0 #fff inset;
+	cursor: default;
+}
+.tab_myorder:checked + label:hover {
+	box-shadow: 0 -1px 0 #fff inset;
+	background-color: #fff;color: #f0a500;
+}
+.tab_myorder + label {
+  color: #f0a500;
+	width:100%;	  
+	box-shadow: 0 -1px 0 #eee inset;
+	border-radius: 6px 6px 0 0;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: #333;
+		  flex-grow: 3;
+	text-align: center;
+	background-color: #f2f2f2;
+		  user-select: none;
+	text-align: center;
+	transition: 0.3s background-color ease, 0.3s box-shadow ease;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 15px;
+}
+@media (min-width:768px) {
+		
+	.tab_myorder + label {
+		width:auto;
+	}
+}
+.tab_myorder + label:hover {
+	background-color: #f9f9f9;
+	box-shadow: 0 1px 0 #f4f4f4 inset;
+  border: 1px solid #f0a500;
+  /* color:#f0a500 ;9 */
+}
+.tab__content_myorder {
+  padding: 1em;
+background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	opacity: 0; box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+	left: 0;
+ transform: translateY(-3px);
+	/* border-radius: 6px;9 */
+}
+.tab__content_myorder h3 {
+color: black;
+}

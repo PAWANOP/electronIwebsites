@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  =
+
 </head>
 <body>
   <nav id="navbar">
@@ -156,71 +156,29 @@
           <div class="header">
             <h4>order list</h4>
           </div>
-          <div class="form-pofile-information">
-            <form class="forms">
-              
-                <div class="left-form">
-                    <h4 class="heading-section-name">Account</h4>
-                  <div class="left-form-top-flex">
-                      <div class="left-form-top-flex-1 photo-upload">
-                      <div class="avatar-upload">
-                        <div class="avatar-edit">
-                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-                            <label for="imageUpload"></label>
-                        </div>
-                        <div class="avatar-preview">
-                            <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
-                            </div>
-                        </div>
-                    </div>
-                      </div> 
-                      <div class="left-form-top-flex-1">
-                          <div class="input-group-profile input-group-icon">
-                      <input type="text" class="input-profile-field" placeholder="Full Name" />
-                        <div class="input-icon"><i class="fa fa-user"></i></div>
-                          </div>
-                          <div class="input-group-profile input-group-icon">
-                      <input type="email" class="input-profile-field" placeholder="Email Adress" />
-                        <div class="input-icon"><i class="fa fa-envelope"></i></div>
-                          </div>
-                     </div>
-                     <div class="left-form-top-flex-1">
-                           <div class="input-group-profile input-group-icon">
-                      <input type="password" class="input-profile-field" placeholder="Password" />
-                        <div class="input-icon"><i class="fa fa-key"></i></div>
-                           </div>
-                           <div class="input-group-profile input-group-icon">
-                          <input type="text" class="input-profile-field" placeholder="mobile" />
-                             <div class="input-icon">
-                               <i class="fas fa-mobile"></i>
-                              </div>
-                          </div>
-                    </div>
-                </div>
-                    
-                </div>
-               <div class="right-form">
-                    <div class="right-form-1 right-form-side">
-                        <h4 class="heading-section-name">Date of Birth</h4>
-                        <div class="input-group">
-                            <div class="col-third"><input type="date" class="date-of-birth" ></div>
-                        </div>
-                    </div> 
-                   <div class="save-button-section right-form-side">
-                      <button class="save-button">save</button>
-                    </div>
-                    <div class="right-form-2 right-form-side">
-                        <h4 class="heading-section-name">Gender</h4>
-                        <div class="input-group-gender">
-                          <input id="gender-male" class="gender" type="radio" name="gender" value="male" />
-                          <label for="gender-male" class="gender-label">Male</label>
-                          <input id="gender-female" class="gender" type="radio" name="gender" value="female" />
-                          <label for="gender-female" class="gender-label">Female</label></div>
-                   </div>                     
-               </div>
-               
-            </form>
-        </div>
+           
+                 	<div class="tab-wrap-myorder">
+		
+			<input type="radio" id="tab1" name="tabGroup1" class="tab_myorder" checked>
+			<label for="tab1">On Going Order</label>
+
+			<input type="radio" id="tab2" name="tabGroup1" class="tab_myorder">
+			<label for="tab2">History</label>
+
+			<div class="tab__content_myorder">
+				<h3>on going order</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<div class="tab__content_myorder">
+				<h3>history</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+			</div>
+
+		
+	                 	</div>
+        
         </div>
         <!-- whishlist -->
         <div id="whishlist" class="tab-pane fade">
