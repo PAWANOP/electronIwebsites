@@ -212,49 +212,113 @@
                                    <h5>add a new  Addresses </h5>
                           </div>            
             </div>  
+            <div class="view_address_list">
+                 <div class="address-type-todo">
+                   <p>home</p>
+                 </div>
+                 <div class="name-and-number-todo">
+                   <div class="name-todo">
+                     <h3>pawan kumar</h3>
+                   </div>
+                   <div class="number-todo">
+                    <h3>913689394</h3>
+                  </div>
+                  <div class="gmail-todo">
+                    <h3>pawanjangidjbr@gmail.com
+                    </h3>
+                  </div>
+                 </div>
+                 <div class="address-todo">
+                     <p class="step-1-address">A/101.siddhi plaza,near om shanti chowk,indralok,phase-3,bhayander -east,Mira Bhayandar,</p>
+                     <p class="step-2-address">thane, </p>
+                     <p class="step-2-address">401105, </p>
+                     <p class="step-2-address">Maharashtra </p>
+                </div>
+            </div>
+
             <div id="myModal" class="modal">
 
               <!-- Modal content -->
               <div class="modal-content">
                 <div class="modal-header">
                   <span class="close"><i class="fas fa-times"></i></span>
-                  <div class="form-group">
-                    <input type="street" 
-                           class="form-control" 
-                           id="autocomplete" 
-                           placeholder="Street">
-                    
-                    <input type="city" 
-                           class="form-control" 
-                           id="inputCity" 
-                           placeholder="City">
-                    
-                    <input type="state" 
-                           class="form-control" 
-                           id="inputState" 
-                           placeholder="State">
-                    
-                    <input type="zip" 
-                           class="form-control" 
-                           id="inputZip" 
-                           placeholder="Zip">
-                    
-                    <input type="county" 
-                           class="form-control" 
-                           id="inputCounty" 
-                           placeholder="County">
-                    
-                    <input type="country" 
-                           class="form-control" 
-                           id="inputCountry" 
-                           placeholder="Country">
-                  </div>
+                  
+                    </div>
+                     <div class="add-adress-form">
+                      <h1>Shipping</h1>
+                       <p>Please enter your shipping details.</p>
+                     <div class="form">
+                       <div class="fields fields--2">
+                    <label class="field">
+                      <span class="field__label" for="firstname">First name</span>
+                      <input class="field__input" type="text" id="firstname" />
+                    </label>
+                    <label class="field">
+                      <span class="field__label" for="lastname">Last name</span>
+                      <input class="field__input" type="text" id="lastname" />
+                    </label>
+                      </div>  
+                      <div class="fields fields--2">
+                          <label class="field">
+                      <span class="field__label" for="firstname">emal</span>
+                      <input class="field__input" type="text" id="firstname" />
+                          </label>
+                          <label class="field">
+                      <span class="field__label" for="lastname">number</span>
+                      <input class="field__input" type="text" id="lastname" />
+                          </label>
+                      </div>
+                         <label class="field fields--4">
+                    <span class="field__label" for="address">Address</span>
+                    <input class="field__input" type="text" id="address" />
+                        </label>
+                        <label class="field fields--5">
+                    <span class="field__label" for="country">Country</span>
+                    <select class="field__input" id="country">
+                      <option value=""></option>
+                      <option value="unitedstates">United States</option>
+                    </select>
+                       </label>
+                       <div class="fields fields--3">
+                    <label class="field">
+                      <span class="field__label" for="zipcode">Zip code</span>
+                      <input class="field__input" type="text" id="zipcode" />
+                    </label>
+                    <label class="field">
+                      <span class="field__label" for="city">City</span>
+                      <input class="field__input" type="text" id="city" />
+                    </label>
+                    <label class="field">
+                      <span class="field__label" for="state">State</span>
+                      <select class="field__input" id="state">
+                        <option value=""></option>
+                      </select>
+                    </label>
+                       </div>
+                       <div class="fields">
+                         <h4 class="address_type_name">Address Type</h4>
+                         <div class="fields--6">
+                           <label class="address_type">
+                                   <input class="" type="radio" id="zipcode" name="radiobutton">
+                                   <span class="address-label home" for="zipcode">home</span>
+                           </label>
+                            <label class="address_type">
+                                  <input class="" type="radio" id="city" name="radiobutton">
+                                  <span class="address-label work" for="city">work</span>
+                           </label>
+                         </div>
+                      </div>
+                  </div>       
+                <div class="add-address-secton">
+                   <button class="add-submt-button">add</button>
                 </div>
+                       
+                    </div>
               </div>
             
             </div>
      </div> 
-    </div>
+</div>
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -267,31 +331,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script>
-  var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.querySelector(".openform");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
+ <script src="js/electronc.js"></script>
 </body>
 </html>
