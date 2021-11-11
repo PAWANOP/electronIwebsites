@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "items": [{
+          "id": 1,
+          "title": "g-shock",
+          "price": 135,
+          "image": "./image/watches-1.jpg"
+      },
+      {
+          "id": 2,
+          "title": "rado",
+          "price": 950,
+          "image": "./images/watches-2.jpg"
+      },
+      {
+          "id": 3,
+          "title": "rolex",
+          "price": 750,
+          "image": "./images/watches-3.jpg"
+      },
+      {
+          "id": 4,
+          "title": "fastrack",
+          "price": 999,
+          "image": "./images/watches-4.jpg"
+      }
+  ]
+}

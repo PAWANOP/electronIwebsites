@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "items": [{
+          "id": 1,
+          "title": "(apple)iphone",
+          "price": 135,
+          "image": "./image/phone-1.jpg"
+      },
+      {
+          "id": 2,
+          "title": "samsung",
+          "price": 950,
+          "image": "./image/phone-2.jpg"
+      },
+      {
+          "id": 3,
+          "title": "honor",
+          "price": 750,
+          "image": "./image/phone-3.jpg"
+      },
+      {
+          "id": 4,
+          "title": "",
+          "price": 999,
+          "image": "./image/phone-4.jpg"
+      },
+      {
+          "id": 5,
+          "title": "The Original Super Donut",
+          "price": 999,
+          "image": "./image/phone-5.jpg"
+      },
+      {
+          "id": 6,
+          "title": "The Original Super Donut",
+          "price": 999,
+          "image": "./image/phone-6.jpg"
+      }
+  ]
+}

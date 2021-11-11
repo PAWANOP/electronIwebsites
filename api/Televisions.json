@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "items": [{
+          "id": 1,
+          "title": "sony",
+          "price": 135,
+          "image": "./image/tv-1.jpg"
+      },
+      {
+          "id": 2,
+          "title": "samsung",
+          "price": 950,
+          "image": "./image/tv-2.jpg"
+      },
+      {
+          "id": 3,
+          "title": "philips",
+          "price": 750,
+          "image": "./image/tv-3.jpg"
+      },
+      {
+          "id": 4,
+          "title": "onida",
+          "price": 999,
+          "image": "./image/tv-4.jpg"
+      }
+  ]
+}
