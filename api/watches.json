@@ -1,28 +1,87 @@
-{
-  "status": "success",
-  "items": [{
-          "id": 1,
-          "title": "g-shock",
-          "price": 135,
-          "image": "./image/watches-1.jpg"
-      },
-      {
-          "id": 2,
-          "title": "rado",
-          "price": 950,
-          "image": "./images/watches-2.jpg"
-      },
-      {
-          "id": 3,
-          "title": "rolex",
-          "price": 750,
-          "image": "./images/watches-3.jpg"
-      },
-      {
-          "id": 4,
-          "title": "fastrack",
-          "price": 999,
-          "image": "./images/watches-4.jpg"
-      }
-  ]
-}
+
+  [   
+    {
+        "id": 1,
+        "title": "Lenovo Legion Y25-25 62.23cm",
+        "price": "29,890",
+        "image": "../image/dell.webp",
+        "discount": "15% off"
+    },
+    {
+        "id": 2,
+        "title": "Lenovo Legion 5 15ARH05",
+        "price": "49,499",
+        "image": "../image/legion.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 3,
+        "title": "Lenovo IdeaPad 3 15IML05",
+        "price": "49,499",
+        "image": "../image/lenovo-yoga.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 4,
+        "title": "Asus X515EA-BQ312TS",
+        "price": "49,499",
+        "image": "../image/ausus-e410.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 5,
+        "title": "Dell Vostro 3400",
+        "price": "49,499",
+        "image": "../image/acer-nitro.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 6,
+        "title": "Asus ROG Strix Laptop",
+        "price": "49,499",
+        "image": "../image/asus-rog-strix.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 7,
+        "title": "Microsoft Surface Laptop 3 VGY-00021",
+        "price": "49,499",
+        "image": "../image/microsoft-sarface.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 8,
+        "title": "Asus Vivobook Ultra 15",
+        "price": "49,499",
+        "image": "../image/asus-vvo.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 9,
+        "title": "Dell Inspiron 3511 D560576WIN9S",
+        "price": "49,499",
+        "image": "../image/Dell-Inspiron.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 10,
+        "title": "Asus TUF DASH F15 FX516PM-HN156TS Gaming Laptop",
+        "price": "99,990",
+        "image": "../image/asus-tuf.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 11,
+        "title": "Apple MYDC2HN/A MacBook Pro",
+        "price": "1,36,990",
+        "image": "../image/MacBook-Pro.jpg",
+        "discount": "15% off"
+    },
+    {
+        "id": 11,
+        "title": "Asus ZenBook 13",
+        "price": "99,990",
+        "image": "../image/Asus_ZenBook_13.jpg",
+        "discount": "15% off"
+    }
+]

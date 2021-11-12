@@ -10,35 +10,29 @@
 }
 
 .carousel .carousel-item:first-of-type {
-  background-image: url(../image/laptop-1.jpg);
+  background-image: url(../image/home-1.png);
   background-size: 100% 100%;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 .carousel .carousel-item:nth-of-type(2) {
-  background-image: url(../image/laptop-2.jpg);
-  background-size: 100% 100%;
-  height: 60vh;
+  background-image: url(../image/home-2.jpg);
+  background-size: 100% 100%;height: 70vh;
 }.carousel .carousel-item:nth-of-type(3) {
-  background-image: url(../image/laptop-3.jpg);
-  background-size: 100% 100%;
-  height: 60vh;
-
+  background-image: url(../image/home-3.jpg);
+  background-size: 100% 100%;height: 70vh;
 }.carousel .carousel-item:nth-of-type(4) {
-  background-image: url(../image/laptop-4.jpg);
-  background-size: 100% 100%;
-  height: 60vh;
+  background-image: url(../image/home-4.jpg);
+  background-size: 100% 100%;height: 70vh;
 }.carousel .carousel-item:nth-of-type(5) {
-  background-image: url(../image/laptop-5.jpg);
-  background-size: 100% 100%;
-  height: 60vh;
+  background-image: url(../image/home-5.jpg);
+  background-size: 100% 100%;height: 70vh;
 }
 
 .carousel .carousel-item:last-of-type {
-  background-image: url(../image/laptop-6.jpg);
-  background-size: 100% 100%;
-  height: 60vh;
+  background-image: url(../image/home-6.jpg);
+  background-size: 100% 100%;height: 70vh;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -51,8 +45,3 @@
   position: relative;
   text-align: center;
 }
-
-.top-rat-card-home{
-  background-color: #354052;
-}
-

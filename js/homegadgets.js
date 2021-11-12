@@ -2,7 +2,7 @@
 
 
 
-fetch('../api/desktop.json')
+fetch('../api/homegadgets.json')
 .then(function (response) {
    return response.json() 
 })

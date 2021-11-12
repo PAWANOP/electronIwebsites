@@ -1,28 +1,87 @@
-{
-  "status": "success",
-  "items": [{
-          "id": 1,
-          "title": "The Original Super Donut",
-          "price": 135,
-          "image": "./images/product-1.jpg"
-      },
-      {
-          "id": 2,
-          "title": "The Original Super Donut",
-          "price": 950,
-          "image": "./images/product-2.jpg"
-      },
-      {
-          "id": 3,
-          "title": "The Original Super Donut",
-          "price": 750,
-          "image": "./images/product-3.jpg"
-      },
-      {
-          "id": 4,
-          "title": "The Original Super Donut",
-          "price": 999,
-          "image": "./images/product-4.jpg"
-      }
-  ]
-}
+
+  [   
+    {
+        "id": 1,
+        "title": "HSR Plastic and Stainless Steel",
+        "price": "597.00",
+        "image": "../image/HSR-Plastic.webp",
+        "discount": "15% off"
+    },
+    {
+        "id": 2,
+        "title": "Treo 1000 ml Glass Serving",
+        "price": "220.00",
+        "image": "../image/treo.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 3,
+        "title": "Tewtross Bluetooth V5.0 Audio",
+        "price": "1,181.00",
+        "image": "../image/Tewtross.webp",
+        "discount": "15% off"
+    },
+    {
+        "id": 4,
+        "title": "Preethi Borosil Glass Lunch Box",
+        "price": "199.00",
+        "image": "../image/Preethi.jfif",
+        "discount": "15% off"
+    },
+    {
+        "id": 5,
+        "title": "Milcent Five Star Flour Mill Machine",
+        "price": "20,990.00",
+        "image": "../image/Milcent.jfif",
+        "discount": "15% off"
+    },
+    {
+        "id": 6,
+        "title": "Morphy Richards HBCS 400",
+        "price": "2,699.00",
+        "image": "../image/Morphy.jfif",
+        "discount": "15% off"
+    },
+    {
+        "id": 7,
+        "title": "Vinod Roti Tawa (Hard Anodised, HART22, Black)",
+        "price": "649.00",
+        "image": "../image/Vinod.jfif",
+        "discount": "15% off"
+    },
+    {
+        "id": 8,
+        "title": "Samsung MC28A5145VK/TL 28 Litres Convection Microwave Oven",
+        "price": "49,499",
+        "image": "../image/SamsungMC28A5145VKTL.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 9,
+        "title": "Sabichi Racks (Bathtub Caddy, 71477, Grey)",
+        "price": "959.00",
+        "image": "../image/Sabichi.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 10,
+        "title": "Haden Perth Slate 1.7 Litres 3000 Watts Electric Kettle",
+        "price": "3,999.00",
+        "image": "../image/Haden.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 11,
+        "title": "Sabichi Jug/Mug (Dipped Base, 190994, White)",
+        "price": "949.00",
+        "image": "../image/SabichiJugMug.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 12,
+        "title": "WildCard India 16A 95~240V Smart Electric Heating",
+        "price": "5,277.00",
+        "image": "../image/WildCard.webp",
+        "discount": "15% off"
+    }
+]

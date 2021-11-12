@@ -2,7 +2,7 @@
 
 
 
-fetch('../api/desktop.json')
+fetch('../api/smartphones.json')
 .then(function (response) {
    return response.json() 
 })
@@ -13,7 +13,7 @@ fetch('../api/desktop.json')
             <div id="product" class="single-product">
 					
                 <div class="part-1 part-1-1"> 	
-                 <img src=${data[i].image}>
+                 <img src=${data[i].image} class="smartphonesphoto">
                     <span class="discount">${data[i].discount}</span>
                     <ul>
                         <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>

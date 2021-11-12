@@ -1,40 +1,87 @@
-{
-  "status": "success",
-  "items": [{
-          "id": 1,
-          "title": "(apple)iphone",
-          "price": 135,
-          "image": "./image/phone-1.jpg"
-      },
-      {
-          "id": 2,
-          "title": "samsung",
-          "price": 950,
-          "image": "./image/phone-2.jpg"
-      },
-      {
-          "id": 3,
-          "title": "honor",
-          "price": 750,
-          "image": "./image/phone-3.jpg"
-      },
-      {
-          "id": 4,
-          "title": "",
-          "price": 999,
-          "image": "./image/phone-4.jpg"
-      },
-      {
-          "id": 5,
-          "title": "The Original Super Donut",
-          "price": 999,
-          "image": "./image/phone-5.jpg"
-      },
-      {
-          "id": 6,
-          "title": "The Original Super Donut",
-          "price": 999,
-          "image": "./image/phone-6.jpg"
-      }
-  ]
-}
+
+  [   
+    {
+        "id": 1,
+        "title": "Samsung Galaxy A12 ",
+        "price": "13,999.00",
+        "image": "../image/SamsungGalaxyA12.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 2,
+        "title": "Realme X7 Max ",
+        "price": "9,499",
+        "image": "../image/RealmeX7Max.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 3,
+        "title": "Apple iPhone 11",
+        "price": "54,900.00",
+        "image": "../image/AppleiPhone11.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 4,
+        "title": "OnePlus Nord CE 5G",
+        "price": "27,999.00",
+        "image": "../image/OnePlusNord.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 5,
+        "title": "Samsung S20 FE 5G",
+        "price": "42,999.00",
+        "image": "../image/SamsungS20.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 6,
+        "title": "Vivo Y20A",
+        "price": "11,990.00",
+        "image": "../image/VivoY20A.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 7,
+        "title": "OnePlus 9R ",
+        "price": "36,999.00",
+        "image": "../image/OnePlus9R.jfif",
+        "discount": "15% off"
+    },
+    {
+        "id": 8,
+        "title": "Apple iPhone 12 Mini ",
+        "price": "54,499.00",
+        "image": "../image/AppleiPhone12.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 9,
+        "title": "Apple iPhone XR ",
+        "price": "48,999.00",
+        "image": "../image/AppleiPhoneXR.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 10,
+        "title": "Samsung Galaxy S21 Plus",
+        "price": "66,999.00",
+        "image": "../image/SamsungGalaxyS21.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 11,
+        "title": "Oppo A15 (32GB ROM, 2GB RAM, CPH2185, Dynamic Black)",
+        "price": "9,490.00",
+        "image": "../image/OppoA15.png",
+        "discount": "15% off"
+    },
+    {
+        "id": 11,
+        "title": "Apple iPhone SE 2nd Gen",
+        "price": "942,999.00",
+        "image": "../image/AppleiPhoneSE.png",
+        "discount": "15% off"
+    }
+]
