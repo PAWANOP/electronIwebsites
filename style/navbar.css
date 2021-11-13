@@ -4,10 +4,13 @@
   font-size: inherit;
   text-decoration: none;
 }
-#menu  {
-  line-height: 60px;
-}
 
+.sign-in-button{
+  border: 1px solid white;
+  padding: 0 12px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
 
 /*======================================================
                           Navbar
@@ -16,14 +19,14 @@
   background: #354052;
   color: rgb(253, 253, 253);
   position: fixed;
-   height: 115px;
+  
   width: 100vw; 
   z-index: 10;
 }
 
 .nav-wrapper {
   display: flex;
-  
+  padding: 6px 0;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
@@ -47,7 +50,7 @@
  
   list-style: none;
   /* margin-right: 14px; */
-  margin-top: -2px;
+  margin-top: 14px;
 
   transition: transform 0.5s ease-out;
   -webkit-transition: transform 0.5s ease-out;
@@ -102,7 +105,9 @@
  margin-left: 6px;
  color: rgb(255, 255, 255);
 }
-.user-profile span {color: rgb(255, 255, 255);
+.user-profile span {
+ 
+  color: rgb(255, 255, 255);
 }
 
 .cart-list span a{
@@ -116,6 +121,7 @@
 .user-profile:hover span i{
 transform: rotate(180deg);
 }
+
 
 .dropdown-menu{
   margin-top: 16px!important;
