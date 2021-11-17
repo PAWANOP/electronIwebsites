@@ -14,7 +14,7 @@ fetch('../api/desktop.json')
 					
                 <div class="part-1 part-1-1"> 	
                  <img src=${data[i].image}>
-                    <span class="discount">${data[i].discount}</span>
+                 
                     <ul>
                         <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                         <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -27,7 +27,11 @@ fetch('../api/desktop.json')
            </div>
      </div> `
    }
+ //   <span class="discount">  ${data[i].discount}     </span>9
+   // var canChange = data[i].discount != 1 ? true : false;
 })
 .catch(function (err) {
   console.log(err)
 })
+
+

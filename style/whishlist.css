@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+.whishlist-photo img{
+    
+  width: 200px;
+  height: 200px;
+}
+
+.product-name dl{
+color: black;
+}
+
+.product-pr-and-rat span{
+  color: black;
+  }.product-pr-and-rat span span{
+  color: black;
+  }
+
+.whishlist-pane{
+  display: flex;
+}
+  .whishlist-button {
+    display: flex;
+    flex-direction: column;
+      margin-top: 3.1rem;
+      margin-left: 13rem; 
+    } 
+    
+    .whishlist-button button:first-child{
+    border-radius: 10px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 8px;
+  background-color: #ffb900;
+  padding: 10px 10px;
+  margin: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+    }
+    .whishlist-button button:last-child{
+    border-radius: 10px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 8px;
+  background-color: #222;
+  padding: 10px 10px;
+  margin: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+    }
+
+
+.product-name a{
+  font-family: 'Shippori Antique', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+      color: black;
+  }
+  
+  .product-name a:hover{
+      text-decoration: none;
+  }
+
+  .whishlist-info{
+  margin-top: 3.8rem;
+  margin-left: 2.8rem;
+}
+.product-pr-and-rat{
+  margin-top: 62px;
+  display: flex;
+  align-items: center;
+}
+.pr span {
+  font-size: 1.7rem;
+  color: black; font-weight: 600;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.rat  {
+ margin-left: 2rem;
+}
+.rat  i{
+  color: #ffb900; font-weight: 600;
+}
+
+@media screen and (max-width: 1285px) {
+
+  .whishlist-pane{
+    display: block;
+  }
+
+  .whishlist-button {
+    display: flex;
+    flex-direction: column;
+      margin-top: 0;
+      margin-left:0; 
+    } 
+  .product-pr-and-rat{
+    margin-top: 0;
+    display: block;
+  }
+}
