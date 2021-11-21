@@ -4,84 +4,84 @@
         "id": 1,
         "title": "HSR Plastic and Stainless Steel",
         "price": "597.00",
-        "image": "../image/HSR-Plastic.webp",
+        "image": "../image/homegadgets/HSR-Plastic.webp",
         "discount": "15% off"
     },
     {
         "id": 2,
         "title": "Treo 1000 ml Glass Serving",
         "price": "220.00",
-        "image": "../image/treo.png",
+        "image": "../image/homegadgets/treo.png",
         "discount": "15% off"
     },
     {
         "id": 3,
         "title": "Tewtross Bluetooth V5.0 Audio",
         "price": "1,181.00",
-        "image": "../image/Tewtross.webp",
+        "image": "../image/homegadgets/Tewtross.webp",
         "discount": "15% off"
     },
     {
         "id": 4,
         "title": "Preethi Borosil Glass Lunch Box",
         "price": "199.00",
-        "image": "../image/Preethi.jfif",
+        "image": "../image/homegadgets/Preethi.jfif",
         "discount": "15% off"
     },
     {
         "id": 5,
         "title": "Milcent Five Star Flour Mill Machine",
-        "price": "20,990.00",
-        "image": "../image/Milcent.jfif",
+        "price": "2090.00",
+        "image": "../image/homegadgets/Milcent.jfif",
         "discount": "15% off"
     },
     {
         "id": 6,
         "title": "Morphy Richards HBCS 400",
         "price": "2,699.00",
-        "image": "../image/Morphy.jfif",
+        "image": "../image/homegadgets/Morphy.jfif",
         "discount": "15% off"
     },
     {
         "id": 7,
         "title": "Vinod Roti Tawa (Hard Anodised, HART22, Black)",
         "price": "649.00",
-        "image": "../image/Vinod.jfif",
+        "image": "../image/homegadgets/Vinod.jfif",
         "discount": "15% off"
     },
     {
         "id": 8,
         "title": "Samsung MC28A5145VK/TL 28 Litres Convection Microwave Oven",
         "price": "49,499",
-        "image": "../image/SamsungMC28A5145VKTL.png",
+        "image": "../image/homegadgets/SamsungMC28A5145VKTL.png",
         "discount": "15% off"
     },
     {
         "id": 9,
         "title": "Sabichi Racks (Bathtub Caddy, 71477, Grey)",
         "price": "959.00",
-        "image": "../image/Sabichi.png",
+        "image": "../image/homegadgets/Sabichi.png",
         "discount": "15% off"
     },
     {
         "id": 10,
         "title": "Haden Perth Slate 1.7 Litres 3000 Watts Electric Kettle",
         "price": "3,999.00",
-        "image": "../image/Haden.png",
+        "image": "../image/homegadgets/Haden.png",
         "discount": "15% off"
     },
     {
         "id": 11,
         "title": "Sabichi Jug/Mug (Dipped Base, 190994, White)",
         "price": "949.00",
-        "image": "../image/SabichiJugMug.png",
+        "image": "../image/homegadgets/SabichiJugMug.png",
         "discount": "15% off"
     },
     {
         "id": 12,
         "title": "WildCard India 16A 95~240V Smart Electric Heating",
         "price": "5,277.00",
-        "image": "../image/WildCard.webp",
+        "image": "../image/homegadgets/WildCard.webp",
         "discount": "15% off"
     }
 ]

@@ -14,7 +14,7 @@ fetch('../api/smartphones.json')
 					
                 <div class="part-1 part-1-1"> 	
                  <img src=${data[i].image} class="smartphonesphoto">
-                    <span class="discount">${data[i].discount}</span>
+                 
                     <ul>
                         <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                         <li><a href="#"><i class="fas fa-heart"></i></a></li>

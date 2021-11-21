@@ -2,86 +2,86 @@
   [   
     {
         "id": 1,
-        "title": "Lenovo Legion Y25-25 62.23cm",
-        "price": "29,890",
-        "image": "../image/dell.webp",
+        "title": "Hisense A71 Series 146cm (58 Inch) Ultra HD 4K LED Android Smart TV (1 Years Warranty, Built-in Chromecast, 58A71F, Black)",
+        "price": "43,990.00",
+        "image": "../image/television/Hisense-A71.png",
         "discount": "15% off"
     },
     {
         "id": 2,
-        "title": "Lenovo Legion 5 15ARH05",
-        "price": "49,499",
-        "image": "../image/legion.jpg",
+        "title": "Samsung Series 4 T4050 80 cm (32 inch) HD Ready LED TV (UA32T4050ARXXL, Black)",
+        "price": "16,790.00 ",
+        "image": "../image/television/Samsung-Series.png",
         "discount": "15% off"
     },
     {
         "id": 3,
-        "title": "Lenovo IdeaPad 3 15IML05",
-        "price": "49,499",
-        "image": "../image/lenovo-yoga.jpg",
+        "title": "Sony Bravia X80J Series 139cm 55 Inch Ultra HD 4K LED Google Smart TV (Dolby Vision Atmos & Alexa CompatibilitKD-55X80J, Black",
+        "price": "84,680.00",
+        "image": "../image/television/Sony-Bravia.png",
         "discount": "15% off"
     },
     {
         "id": 4,
-        "title": "Asus X515EA-BQ312TS",
-        "price": "49,499",
-        "image": "../image/ausus-e410.jpg",
+        "title": "Croma Fire TV 109cm (43 Inch) Ultra HD 4K LED Smart TV (3 Years Warranty, Alexa Voice Assistant Remote, CREL7366, Black)",
+        "price": "38,990.00",
+        "image": "../image/television/Croma-Fire.jfif",
         "discount": "15% off"
     },
     {
         "id": 5,
-        "title": "Dell Vostro 3400",
-        "price": "49,499",
-        "image": "../image/acer-nitro.jpg",
+        "title": "Xiaomi Mi 4A Horizon Edition 100cm (40 Inch) Full HD LED Android Smart TV (Built-in Chromecast, ELA4642IN, Black)",
+        "price": "24,999.00",
+        "image": "../image/television/Xiaomi-Mi.png",
         "discount": "15% off"
     },
     {
         "id": 6,
-        "title": "Asus ROG Strix Laptop",
-        "price": "49,499",
-        "image": "../image/asus-rog-strix.jpg",
+        "title": "Samsung 6 Series 108cm (43 Inch) Ultra HD 4K QLED Smart TV (Wi-Fi Supported, QA43Q60AAKLXL, Black)",
+        "price": "61,180.00",
+        "image": "../image/television/Samsung-6.png",
         "discount": "15% off"
     },
     {
         "id": 7,
-        "title": "Microsoft Surface Laptop 3 VGY-00021",
-        "price": "49,499",
-        "image": "../image/microsoft-sarface.jpg",
+        "title": "LG 81.28 cm (32 Inch) HD Ready LED Smart TV (32LM636B, Black)",
+        "price": "22,990.00",
+        "image": "../image/television/LG-81.28.png",
         "discount": "15% off"
     },
     {
         "id": 8,
-        "title": "Asus Vivobook Ultra 15",
-        "price": "49,499",
-        "image": "../image/asus-vvo.jpg",
+        "title": "LG 108cm (43 Inch) 4K Ultra HD LED Smart TV (Google Assistant, 43UM7780, Ceramic Black)",
+        "price": "45,230.00",
+        "image": "../image/television/LG-108cm.png",
         "discount": "15% off"
     },
     {
         "id": 9,
-        "title": "Dell Inspiron 3511 D560576WIN9S",
-        "price": "49,499",
-        "image": "../image/Dell-Inspiron.jpg",
+        "title": "Samsung 7 Series 108cm (43 Inch) Ultra HD 4K LED Smart TV (Multi Voice Assistant Supported, UA43AU7700KLXL, Titan Grey)",
+        "price": "43,960.00",
+        "image": "../image/television/Samsung-7.png",
         "discount": "15% off"
     },
     {
         "id": 10,
-        "title": "Asus TUF DASH F15 FX516PM-HN156TS Gaming Laptop",
-        "price": "99,990",
-        "image": "../image/asus-tuf.jpg",
+        "title": "LG 126 cm (50 inch) 4k Ultra HD LED Smart TV (Black, 50UM7700)",
+        "price": "51,490.00",
+        "image": "../image/television/Samsung-7.png",
         "discount": "15% off"
     },
     {
         "id": 11,
-        "title": "Apple MYDC2HN/A MacBook Pro",
-        "price": "1,36,990",
-        "image": "../image/MacBook-Pro.jpg",
+        "title": "LG 127cm (50 Inch) Ultra HD 4K LED Smart TV (AI ThinQ, 50UP7750PTZ, Black)",
+        "price": "59,990.00",
+        "image": "../image/television/Samsung-7.png",
         "discount": "15% off"
     },
     {
         "id": 11,
-        "title": "Asus ZenBook 13",
-        "price": "99,990",
-        "image": "../image/Asus_ZenBook_13.jpg",
+        "title": "LG CX Series 121.92cm (48 Inch) Ultra HD 4K OLED Smart TV (Self Lighting Pixel Dimming, OLED48CXPTA, Black)",
+        "price": "109,990.00",
+        "image": "../image/television/Samsung-7.png",
         "discount": "15% off"
     }
 ]

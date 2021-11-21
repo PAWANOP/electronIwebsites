@@ -2,86 +2,84 @@
   [   
     {
         "id": 1,
-        "title": "Lenovo Legion Y25-25 62.23cm",
-        "price": "29,890",
-        "image": "../image/dell.webp",
+        "title": "Fire-Boltt BSW001 Smart Watch",
+        "price": "2,999.00",
+        "image": "../image/watches/Fire-boltt.png",
         "discount": "15% off"
     },
     {
         "id": 2,
-        "title": "Lenovo Legion 5 15ARH05",
-        "price": "49,499",
-        "image": "../image/legion.jpg",
+        "title": "Noise ColorFit Pro 3 Smart Watch ",
+        "price": "3,999.00",
+        "image": "../image/watches/Noise-ColorFit1.png",
         "discount": "15% off"
     },
     {
         "id": 3,
-        "title": "Lenovo IdeaPad 3 15IML05",
-        "price": "49,499",
-        "image": "../image/lenovo-yoga.jpg",
+        "title": "Apple Watch Series 6 Smartwatch",
+        "price": "46,900.00",
+        "image": "../image/watches/apple-watch.png",
         "discount": "15% off"
     },
     {
         "id": 4,
-        "title": "Asus X515EA-BQ312TS",
-        "price": "49,499",
-        "image": "../image/ausus-e410.jpg",
+        "title": "Noise ColorFit Pro 3 Smart Watch",
+        "price": "3,999.00",
+        "image": "../image/watches/Noise-ColorFit.png",
         "discount": "15% off"
     },
     {
         "id": 5,
-        "title": "Dell Vostro 3400",
-        "price": "49,499",
-        "image": "../image/acer-nitro.jpg",
+        "title": "Portronics Kronos Alpha (5ATM, 33mm) ",
+        "price": "3,490.00",
+        "image": "../image/watches/Portronics-Kronos.png",
         "discount": "15% off"
     },
     {
         "id": 6,
-        "title": "Asus ROG Strix Laptop",
-        "price": "49,499",
-        "image": "../image/asus-rog-strix.jpg",
+        "title": "eOnz Elite Smart Watch (45.46mm)",
+        "price": "3,399.00",
+        "image": "../image/watches/eOnz-Elite.png",
         "discount": "15% off"
     },
     {
         "id": 7,
-        "title": "Microsoft Surface Laptop 3 VGY-00021",
-        "price": "49,499",
-        "image": "../image/microsoft-sarface.jpg",
+        "title": "Noise NoiseFit Agile Smart Watch ",
+        "price": "3,999.00",
+        "image": "../image/watches/Noise-NoiseFit2.png",
         "discount": "15% off"
     },
     {
         "id": 8,
-        "title": "Asus Vivobook Ultra 15",
-        "price": "49,499",
-        "image": "../image/asus-vvo.jpg",
+        "title": "boAt Flash Smart Watch (Bluetooth, 33mm)",
+        "price": "3,099.00",
+        "image": "../image/watches/boAt-Flash.png",
         "discount": "15% off"
     },
     {
         "id": 9,
-        "title": "Dell Inspiron 3511 D560576WIN9S",
-        "price": "49,499",
-        "image": "../image/Dell-Inspiron.jpg",
+        "title": "Diesel Axial Smart Watch (GPS, 48 mm) (Water Resistant, DZT2016, Black, Leather)",
+        "price": "3,099.00",
+        "image": "../image/watches/Diesel-Axial.png",
         "discount": "15% off"
     },
     {
         "id": 10,
-        "title": "Asus TUF DASH F15 FX516PM-HN156TS Gaming Laptop",
-        "price": "99,990",
-        "image": "../image/asus-tuf.jpg",
+        "title": "GOQii Smart Vital Smart Watch (33mm) (Integrated Pulse Oximeter, Black, Buckle Band)",
+        "price": "2,999.00",
+        "image": "../image/watches/GOQii-Smart.png",
         "discount": "15% off"
     },
     {
         "id": 11,
-        "title": "Apple MYDC2HN/A MacBook Pro",
-        "price": "1,36,990",
-        "image": "../image/MacBook-Pro.jpg",
-        "discount": "15% off"
+        "title": "Realme Smart Watch (35mm) (Heart Rate Monitoring, RMA161, Black, Silicone Band)",
+        "price": "2,999.00",
+        "image": "../image/watches/Realme-Smart.png"
     },
     {
         "id": 11,
-        "title": "Asus ZenBook 13",
-        "price": "99,990",
-        "image": "../image/Asus_ZenBook_13.jpg",
-        "discount": "15% off"
+        "title": "Inbase Urban Sports Smart Watch (Bluetooth 5.0)",
+        "price": "2,999.00",
+        "image": "../image/watches/Inbase-Urban.JFIF"
     }
 ]
